@@ -59,9 +59,11 @@
 
 /* Media Queries for responsiveness */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 468px) {
   .habilidades {
     padding: 50px 19px;
+    width: auto;
+    max-width: 100%;
   }
 
   .habilidades ul {
