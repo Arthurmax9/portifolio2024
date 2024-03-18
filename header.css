@@ -1,3 +1,4 @@
+/* Default styles */
 @keyframes Gradient {
   0%, 100% {
     background-position: 0% 50%;
@@ -12,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
- background-color: black;
+  background-color: black;
 }
 
 header {
@@ -34,11 +35,11 @@ header {
 .header__left h1 {
   margin: 50px 0 70px;
   font-size: 54px;
-  background-image: linear-gradient(to right, rgb(12, 58, 20), rgb(23, 128, 28),white);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: color-change 2s infinite linear;
+  background-image: linear-gradient(to right, rgb(12, 58, 20), rgb(23, 128, 28), white);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: color-change 2s infinite linear;
 }
 
 .header__left p {
@@ -81,6 +82,8 @@ header {
   margin: 20px;
 }
 
+/* Media Queries for responsiveness */
+
 @media only screen and (max-width: 458px) {
   header {
     flex-direction: column-reverse;
@@ -94,5 +97,6 @@ header {
 
   .header__left p {
     margin: 2rem auto 4rem;
+    padding: 20px;
   }
 }
